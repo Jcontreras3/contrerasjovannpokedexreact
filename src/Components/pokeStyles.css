@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
+
+
+.pokeCont {
+  background-image: url("../Assets/pokeBg1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.redBx {
+  margin-top: 5rem;
+  width: 1000px;
+  height: 700px;
+  border-bottom-right-radius: 5rem;
+  border-top-right-radius: 5rem;
+  background: rgb(177, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(177, 0, 0, 0.72883413619354) 0%,
+    rgba(255, 0, 0, 1) 14%
+  );
+}
+
+.navBar {
+  background: rgb(177, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(177, 0, 0, 0.72883413619354) 0%,
+    rgba(218, 216, 216, 0.8716912790506828) 0%
+  );
+  height: 70px;
+  align-items: center;
+  display: flex;
+}
+.inputPoke {
+  margin-left: 10rem;
+  height: 2rem;
+}
+.srchBtn {
+  height: 2rem;
+}
+.pokeNameStyle{
+  color: White;
+  font-size: 18;
+  font-family: 'JetBrains Mono', monospace;
+}
+.pokeTypeStyle{
+  color: White;
+  font-size: 18;
+  font-family: 'JetBrains Mono', monospace;
+}
+.pokeMoveStyle{
+  color: White;
+  font-size: 18;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+}
+.imgGroup{
+  float:right;
+}
+.test2{
+  display: flex;
+  flex-direction: row;
+}
+.imgStyles{
+  width: 25rem;
+  height: 25rem;
+}
+.titleTxt{
+  font-family: 'JetBrains Mono', monospace;
+  margin-left: 2rem;
+  
+}
